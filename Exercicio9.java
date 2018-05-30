@@ -9,8 +9,11 @@ public class Exercicio9 {
         this.tree = node;
     }
 
+    public Integer executar() {
+        return calculate(tree);
+    }
 
-    public Integer calculate(Node tree) {
+    private Integer calculate(Node tree) {
         int controle = 0;
 
         if (tree != null) {
